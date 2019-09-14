@@ -1,0 +1,15 @@
+Host rpi0 # (1) Raspberry, Principal
+    Hostname 192.168.1.48
+Host rpi1 # (2) Raspberry, Additional
+    Hostname 192.168.1.9
+Host rpi2 # (3) Raspberry, Flying
+    Hostname 192.168.1.173
+Host rpi3 # (4) Raspberry, Optional
+    Hostname 192.168.1.238
+Host rpi4 # (5) Raspberry, Cluster
+    Hostname 192.168.1.131
+Host * 
+    IdentityFile ~/.ssh/id_rsa
+    IdentitiesOnly yes
+    User pi
+    Port 22
