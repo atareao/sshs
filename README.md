@@ -16,12 +16,6 @@
 
 ### 🏠 [Homepage](https://www.atareao.es)
 
-## Install
-
-```sh
-npm install
-```
-
 ## Author
 
 👤 **Lorenzo Carbonell &lt;a.k.a atareao&gt;**
